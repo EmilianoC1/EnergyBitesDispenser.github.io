@@ -1,5 +1,5 @@
 
-<title style="text-align: center;">Energy Bites Dispenser</title>
+<h1 style="text-align: center;">Energy Bites Dispenser</h1>
 
 ![The team](IMG_20261005_095950.jpg)
 
@@ -8,4 +8,4 @@
 <p>Ms. Cortez</p>
 
 
-<h2>Project Overview</h2>
+<h1>Project Overview</h1>
