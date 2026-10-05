@@ -1,6 +1,6 @@
 
-<p align="center">
+<h align="center">
   # Energy Bites Dispenser
-</p>
+</h>
 
 ![The team](IMG_20261005_095950.jpg)
