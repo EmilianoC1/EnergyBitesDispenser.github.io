@@ -1,5 +1,5 @@
 
-<h1 style="text-align: center;">Energy Bites Dispenser</h1>
+<title style="text-align: center;">Energy Bites Dispenser</title>
 
 ![The team](IMG_20261005_095950.jpg)
 
