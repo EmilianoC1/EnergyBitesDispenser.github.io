@@ -6,3 +6,6 @@
 <p>Design by Miguel L, Alexander T, Emiliano C, and Carloz Z</p>
 <p>Gladys Porter Early College High School</p>
 <p>Ms. Cortez</p>
+
+
+<h2>Project Overview</h2>
