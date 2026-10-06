@@ -7,8 +7,8 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
-  ![The team](IMG_20261005_095950.jpg)
+
+  <img src="IMG_20261005_095950.jpg" alt="The team">
   
   <p>Design by Miguel L, Alexander T, Emiliano C, and Carlos Z</p>
   <p>Gladys Porter Early College High School</p>
