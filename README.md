@@ -6,7 +6,7 @@
 </head>
 <body>
   
-  ![The team](EnergyBitesDispenser.github.io/IMG_20261005_095950.jpg)
+  ![The team](IMG_20261005_095950.jpg)
   
   <p>Design by Miguel L, Alexander T, Emiliano C, and Carlos Z</p>
   <p>Gladys Porter Early College High School</p>
