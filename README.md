@@ -9,4 +9,4 @@
 
 
 <h1>Project Overview</h1>
-<h2>Develop a dispenser for the inside of the space suit that will allow the astronaut to get a variety of food bites without using their hands while working on the moon.</h2>
+<h2>Astronauts will spend 6–8 hours in their space suits while working on the Moon or Mars. Our project is to develop a Food Bite Dispenser inside the helmet that allows astronauts to get a variety of food bites without using their hands, helping them stay energized during long activities.</h2>
