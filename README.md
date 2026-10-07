@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="style.css">
 
   <div class="center-wrapper">
-  <h1">Energy Bites Dispenser</h1>
+  <h1>Energy Bites Dispenser</h1>
 
   <img src="IMG_20261005_095950.jpg" alt="The team">
   </div>
