@@ -1,3 +1,5 @@
-body {
-
+style {
+  .center-wrapper {
+    text-align: center;
+  }
 }
