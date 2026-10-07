@@ -1,6 +1,5 @@
 .center-wrapper {
-  display: flex;
-  justify-content: center; /* Aligns horizontally */
-  align-items: center;     /* Aligns vertically */
-  height: 300px;           /* Requires a defined height to see vertical centering */
+  display: grid;
+  place-items: center; /* Centers both horizontally and vertically */
+  height: 300px;       /* Requires a defined height to see vertical centering */
 }
