@@ -2,13 +2,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <h1 style="text-align: center;">Energy Bites Dispenser</h1>
-
   <link rel="stylesheet" href="style.css">
+
+  <div class="center-wrapper">
+  <h1">Energy Bites Dispenser</h1>
+
+  <img src="IMG_20261005_095950.jpg" alt="The team">
+  </div>
+  
 </head>
 <body>
 
-  <img src="IMG_20261005_095950.jpg" alt="The team">
+  
   
   <p>Design by Miguel L, Alexander T, Emiliano C, and Carlos Z</p>
   <p>Gladys Porter Early College High School</p>
