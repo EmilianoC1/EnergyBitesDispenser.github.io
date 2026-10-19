@@ -1,3 +1,235 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0b1424;
+  color: #f1f5f9;
+  line-height: 1.7;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* TOP HEADER */
+
+.page-header {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #122a49, #0b1424);
+  border-bottom: 1px solid #263b55;
+}
+
+.page-header h1 {
+  margin: 0 0 30px;
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+/* TEAM PHOTO */
+
+.center-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.team-img {
+  width: 100%;
+  max-width: 650px;
+  max-height: 380px;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid #344b68;
+}
+
+.team-info {
+  margin-top: 22px;
+}
+
+.team-info p {
+  margin: 4px 0;
+  color: #c3d1e2;
+}
+
+/* MAIN CONTENT WIDTH */
+
+main {
+  width: 90%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+/* SEPARATE SECTIONS */
+
+.content-section {
+  margin: 45px 0;
+  padding: 32px;
+  background-color: #121f33;
+  border: 1px solid #263b55;
+  border-radius: 16px;
+}
+
+.content-section h2 {
+  margin: 0 0 22px;
+  text-align: center;
+  font-size: clamp(1.7rem, 3vw, 2.4rem);
+  color: #7dbbff;
+}
+
 .pt-ow-text {
-  font-size: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #d0dbea;
+  font-size: 1.08rem;
+  text-align: center;
+}
+
+/* PROTOTYPE CARDS */
+
+.prototype-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 25px;
+}
+
+.prototype-card {
+  overflow: hidden;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: #1a2b43;
+  border: 1px solid #304863;
+  border-radius: 12px;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.prototype-card:hover {
+  transform: translateY(-4px);
+  border-color: #7dbbff;
+}
+
+.prototype-card img {
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  object-fit: contain;
+  background-color: #e8edf4;
+}
+
+.prototype-card h3 {
+  margin: 18px 12px 5px;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.prototype-card p {
+  margin: 0 16px;
+  color: #bdcadd;
+  font-size: 0.95rem;
+}
+
+/* BROCHURE AND POSTER LINKS */
+
+.links-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.resource-link {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+  padding: 20px;
+  color: #ffffff;
+  background-color: #1a2b43;
+  border: 1px solid #304863;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.resource-link:hover {
+  background-color: #223a59;
+  border-color: #7dbbff;
+}
+
+.link-icon {
+  font-size: 1.8rem;
+}
+
+.resource-link strong,
+.resource-link small {
+  display: block;
+}
+
+.resource-link strong {
+  font-size: 1rem;
+}
+
+.resource-link small {
+  margin-top: 4px;
+  color: #bdcadd;
+  font-size: 0.82rem;
+}
+
+.arrow {
+  margin-left: auto;
+  color: #7dbbff;
+  font-size: 1.4rem;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 60px;
+  padding: 25px 20px;
+  text-align: center;
+  background-color: #070d17;
+  border-top: 1px solid #263b55;
+}
+
+footer p {
+  margin: 0;
+  color: #aab9cc;
+  font-size: 0.9rem;
+}
+
+/* PHONE AND SMALL SCREEN LAYOUT */
+
+@media (max-width: 650px) {
+  .page-header {
+    padding: 35px 16px;
+  }
+
+  main {
+    width: 94%;
+  }
+
+  .content-section {
+    margin: 25px 0;
+    padding: 22px 16px;
+  }
+
+  .prototype-container,
+  .links-container {
+    grid-template-columns: 1fr;
+  }
+
+  .prototype-card img {
+    height: 260px;
+  }
+
+  .team-img {
+    max-height: 300px;
+  }
 }
